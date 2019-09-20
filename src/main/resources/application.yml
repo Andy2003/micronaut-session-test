@@ -1,0 +1,3 @@
+micronaut:
+  session:
+    max-inactive-interval: 2s
