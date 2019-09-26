@@ -9,6 +9,6 @@ import io.micronaut.session.event.SessionExpiredEvent;
 public class SessionListener implements ApplicationEventListener<SessionExpiredEvent> {
 	@Override
 	public void onApplicationEvent(SessionExpiredEvent event) {
-		System.out.println("expired");
+		System.out.println("session expired");
 	}
 }
